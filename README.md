@@ -1,11 +1,11 @@
-# Raycasting Autograder
+# Raytracing Autograder
 
 This autograder is designed for  for [graphics101-raytracing](http://github.com/yig/graphics101-raytracing).
 Download this repository and run it via:
 
     python3 autograde.py path/to/build/raycasting
 
-If you download `graphics101-raycasting-autograder` and place it
+If you download `graphics101-raytracing-autograder` and place it
 next to `graphics101-raycasting` in the filesystem, then the command would be:
 
     python3 autograde.py ../graphics101-raycasting/build/raycasting
@@ -33,4 +33,4 @@ The autograder runs the `raycasting` executable on all tests in the
 
     parallel path/to/solution/build/raycasting '{}' '{.}.png' 300 ::: scene_files/*.json
 
-using the solution raycasting executable.
+using the solution `raycasting` executable.
