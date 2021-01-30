@@ -1,6 +1,6 @@
 # Raytracing Autograder
 
-This autograder is designed for  for [graphics101-raytracing](http://github.com/yig/graphics101-raytracing).
+This autograder is designed for [graphics101-raytracing](http://github.com/yig/graphics101-raytracing).
 Download this repository and run it via:
 
     python3 autograde.py path/to/build/raycasting
